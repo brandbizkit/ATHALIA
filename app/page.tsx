@@ -765,6 +765,7 @@ function Footer({ go }: { go: (v: View) => void }) {
       <div>
         <button onClick={() => go("home")}>Collection</button>
         <button onClick={() => go("upload")}>Artist studio</button>
+        <a className="mobile-artist-login" href="/studio">Artist login</a>
         <a href="mailto:studio@athalia.art">Contact</a>
       </div>
       <small>© 2026 ATHALIA · MANILA / EVERYWHERE</small>
